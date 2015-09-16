@@ -93,4 +93,4 @@ dsFinal <- melt(dsReducedWActivityName, id=c("activityname", "subjectid"))
 # calculate mean for each variable and create dataset with means on every variable by activity and subject name
 dsFinalMean <- dcast(dsFinal, activityname + subjectid ~ variable, mean)
 
-write.table(dsFinalMean, "./tidydata.txt", append=FALSE)
+write.table(dsFinalMean, "./tidydata.txt", row.name=FALSE, append=FALSE)

@@ -11,7 +11,7 @@ This codebook describes datasets created with run_analysis.R script and transfor
 
 Dataset dsReducedWActivityName contains 81 columns:
 
-1. The first column in dataset activityname contains information about activity performed. This column has 6 different values:
+The first column in dataset activityname contains information about activity performed. This column has 6 different values:
 * WALKING
 * WALKING_UPSTAIRS
 * WALKING_DOWNSTAIRS
@@ -19,9 +19,9 @@ Dataset dsReducedWActivityName contains 81 columns:
 * STANDING
 * LAYING
 
-2. The second column in dataset is subjectid. There are 30 subjects with unique Subject Ids (values 1-30) who performed the experiment.
+The second column in dataset is subjectid. There are 30 subjects with unique Subject Ids (values 1-30) who performed the experiment.
 
-3. Columns 3- 81 contain measurements that were reduced from 561 measurments in original dataset. dsReducedWActivityName dataset contains Mean and Standard deviation measurements only. Remark: X(YZ) represents 3 different measurements - 3-axial signals in the X, Y and Z directions:
+Columns 3- 81 contain measurements that were reduced from 561 measurments in original dataset. dsReducedWActivityName dataset contains Mean and Standard deviation measurements only. Remark: X(YZ) represents 3 different measurements - 3-axial signals in the X, Y and Z directions:
 
 * timeBodyAccMeanX(YZ)
 * timeGravityAccMeanX(YZ)

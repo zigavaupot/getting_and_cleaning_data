@@ -90,7 +90,9 @@ colnames(dsReducedWActivityName) <- tempNames
 # use melt to create tidy data set - one variable per row
 dsFinal <- melt(dsReducedWActivityName, id=c("activityname", "subjectid"))
 
+write.table(dsFinal, "./tidydata0.txt", append=FALSE)
+
 # calculate mean for each variable and create dataset with means on every variable by activity and subject name
 dsFinalMean <- dcast(dsFinal, activityname + subjectid ~ variable, mean)
 
-write.table(dsFinalMean, "./tidydata.txt", row.name=FALSE, append=FALSE)
+write.table(dsFinalMean, "./tidydata.txt", append=FALSE)

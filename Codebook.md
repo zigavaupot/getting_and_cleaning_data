@@ -174,7 +174,7 @@ gsub is used to replace characters/string of characters in column names.
 
 ### Step 5
 
-In step 5 melt function is used to create a new tidy data set dsFinal. dsFinal contains two id column pairs - activityname and subjectid, with only one variable/value pair.
+In step 5 melt function is used to create a new tidy data set dsFinal. dsFinal contains two id column pairs - activityname and subjectid, with only one variable/value pair - stored as tidydata0.txt to disk
 
 For example:
   activityname subjectid         variable     value

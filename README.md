@@ -26,5 +26,5 @@ You can view data frames that are created during script's execution:
 * ds: combined data set, combining train_ds and test_ds
 * dsReduced: data set with reduced set of columns - only activity id, subject id and 79 measures
 * dsReducedWActivityName: merged data set with activity labels; activity labels replacing activity id
-* dsFinal: "normalized" data set with subject/activity pair and variable and its value
-* dsFinalMean: data set with subject/activity and calculated means for all variables in dsFinal dataset
+* dsFinal: "normalized" data set with subject/activity pair and variable and its value - result stored in tidydata0.txt
+* dsFinalMean: data set with subject/activity and calculated means for all variables in dsFinal dataset - result stored in tidydata.txt
